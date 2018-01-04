@@ -1,0 +1,18 @@
+{
+  "name": "@rschmidmeister/crazy-html",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "author": "Ruben Schmidmeister <ruben.schmidmeister@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle --compress=false",
+    "dev": "yarn run build watch",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "jsdom": "^11.5.1",
+    "microbundle": "^0.2.4",
+    "mocha": "^4.1.0"
+  }
+}
